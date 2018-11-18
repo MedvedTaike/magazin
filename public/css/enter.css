@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Vast Shadow'; 
+    src: url('/public/fonts/Vast_Shadow/VastShadow-Regular.ttf'); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: 'Marck Script'; 
+    src: url('/public/fonts/Marck_Script/MarckScript-Regular.ttf'); /* Путь к файлу со шрифтом */
+   }
+.container-fluid{ 
+    padding: 0;
+}
+.head{
+    background-color: #FE980F;
+    width: 100%;
+}
+.cont {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logotype{
+    color: #fff;
+    font-size: 2.7rem;
+    font-family: 'Vast Shadow', cursive ;
+    margin: 0;
+    text-align: center;
+}
+.spec{
+    color: #495057;
+    font-size: 1.4rem;
+    font-family: 'Marck Script', cursive;
+}
+.vhod{
+    max-width: 400px;
+    margin: 40px auto;
+}
+.border-yellow{
+    border-color: #fe980f;
+}
+.background-yellow {
+    background-color: #fe980f;
+    color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cont {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cont {
+        width: 100%;
+    }
+}
+@media (min-width: 610px) and (max-width: 767px) {
+    .cont {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 480px) and (max-width: 609px) {
+    .cont {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .vhod {
+        width: 95%;
+    }
+    .card-body{
+        padding: 5px;
+    }
+    .logotype{
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 479px){
+    .cont {
+        width: 100%;
+    }
+    .vhod {
+        width: 95%;
+    }
+    .card-body{
+        padding: 5px;
+    }
+    .logotype{
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 0 10px;
+    }
+}
+@media (max-width: 319px){
+    .cont {
+        width: 100%;
+    }
+    .vhod {
+        width: 95%;
+    }
+    .card-body{
+        padding: 5px;
+    }
+    .logotype{
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 0 10px;
+    }
+}
